@@ -22,7 +22,7 @@ echo Complete...
 echo Executing the following command: python ${path}/script.py --multiple_files ${path}/data/multiple_files --file ${path}/data/data.txt
 ${path}/vp/bin/python2.7 ${path}/script.py --multiple_files ${path}/data/multiple_files --file ${path}/data/data.txt
 echo Complete...
-##Remove virtual python env
+#Remove virtual python env
 rm -r ${path}/vp
 
 

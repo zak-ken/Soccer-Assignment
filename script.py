@@ -28,14 +28,16 @@ def main(data_file=None, multiple_files=None):
                 sys.exit('String given is not in a list format or path given does not exist')
             filelist = ['{}/{}'.format(multiple_files, f) for f in listdir(multiple_files)]
             team_points = calculate(filelist, team_points)
-
     team_points = collections.OrderedDict(sorted(team_points.items()))
     team_points = sorted(team_points.items(), key=operator.itemgetter(1), reverse=True)
     prev_value = None
     prev_rank = None
+    outliner = 0
     for i, item in enumerate(team_points, start=1):
+        i -= outliner
         if prev_value == item[1]:
             i = prev_rank
+            outliner += 1
         else:
             prev_value = item[1]
         prev_rank = i

@@ -2,4 +2,4 @@ Lions 3, Snakes 3
 Barantulas 1, FC Awesome 0
 Lions 1, FC Awesome 1
 Barantulas 3, Snakes 1
-Lions 4, Grouches 0
+Lions 4, Gr•ouches 0

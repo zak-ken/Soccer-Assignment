@@ -2,4 +2,4 @@ Lions 3, Snakes 1
 Tarantulas 7, FC Awesome 7
 Lions 41, FC Awesome 99
 Tarantulas 1, Snakes 900
-Lions 1, Grouches 5000000
+Lions 1, Gr•ouches 5000000
